@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,regular,600,700,800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans';
+    background-color: #FFFACD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Настройки главного контейнера */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+/* Настройки заголовка */
+.container h1 {
+    font-size: 35px;
+    color: #1a8ae6;
+    padding-bottom: 5px;
+}
+    
+.container__logo img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
